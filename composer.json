@@ -1,0 +1,14 @@
+{
+  "name": "miladm/nginx-docker",
+  "version": "0.1.0",
+  "description": "install docker-compose of nginx with default configurations fast and easy",
+  "type": "library",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "MiladM",
+      "email": "miladmohebnia@gmail.com"
+    }
+  ],
+  "require": {}
+}
