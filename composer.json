@@ -10,5 +10,10 @@
       "email": "miladmohebnia@gmail.com"
     }
   ],
-  "require": {}
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "app\\": "src/app"
+    }
+  }
 }

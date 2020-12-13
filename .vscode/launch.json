@@ -19,12 +19,12 @@
             "port": 9000
         },
         {
-            "name": "Run using local PHP Interpreter",
+            "name": "Launch index",
             "type": "php",
             "request": "launch",
-            "runtimeExecutable": "/usr/bin/php",
-            "program": "${workspaceFolder}/index.php",
-            "cwd": "${workspaceFolder}",
+            "program": "${workspaceRoot}/src/index.php",
+            "cwd": "${fileDirname}",
+            "port": 9000
         }
     ]
 }
